@@ -1,0 +1,267 @@
+Design a complete, modern, production-ready **Authentication System UI/UX** for **XOVA AI**.
+
+The authentication experience must match the main XOVA AI design system:
+**Minimal + Premium + Modern + Clean + Professional + Comfortable**
+
+## 1. Authentication Screens
+
+Create the following screens:
+
+### Login
+
+Include:
+
+* XOVA AI logo/wordmark
+* Welcome back title
+* Email input
+* Password input
+* Show/hide password button
+* "Remember me" option
+* "Forgot password?" link
+* Primary "Sign In" button
+* "Don't have an account? Create account"
+* Google sign-in button
+
+Do not add unnecessary fields or content.
+
+### Create Account
+
+Include:
+
+* XOVA AI logo/wordmark
+* "Create your XOVA AI account"
+* Full name
+* Email
+* Password
+* Confirm password
+* Password visibility controls
+* Terms/privacy checkbox
+* "Create Account" button
+* Google sign-up button
+* "Already have an account? Sign in"
+
+### Forgot Password
+
+Include:
+
+* Email input
+* "Send reset link" button
+* Back to login
+* Clear success state after submitting
+
+### Reset Password
+
+Include:
+
+* New password
+* Confirm new password
+* Password visibility controls
+* Password strength indicator
+* "Reset Password" button
+* Success state
+
+### Email Verification
+
+Create a clean verification screen:
+
+* Verification message
+* User's email placeholder
+* "Resend verification email"
+* Countdown before resend is available
+* "Change email"
+* Back to login
+
+### Google Authentication
+
+Design the Google authentication flow consistently with the rest of XOVA AI.
+
+Include appropriate:
+
+* Loading state
+* Success state
+* Error state
+* Cancel/back state
+
+## 2. Authentication States
+
+Design UI states for every important action:
+
+### Default
+
+Normal form with empty fields.
+
+### Focus
+
+Clearly show the active input.
+
+### Filled
+
+Inputs containing user information.
+
+### Loading
+
+Buttons show a loading indicator and prevent duplicate submissions.
+
+### Validation Error
+
+Show clear, friendly errors such as:
+
+* Invalid email
+* Required field
+* Password too short
+* Passwords don't match
+* Incorrect login information
+
+Do not use aggressive or alarming language.
+
+### Success
+
+Show a clean confirmation state after:
+
+* Account creation
+* Login
+* Password reset
+* Email verification
+
+### Network / Server Error
+
+Create a simple retryable error state.
+
+## 3. Logout
+
+Design the logout experience inside the XOVA AI account/settings area.
+
+Include:
+
+* "Log out" button
+* Confirmation modal
+* Cancel
+* Confirm Log Out
+* Loading state
+* Successful logout state
+
+The confirmation modal should be minimal and not contain unnecessary information.
+
+## 4. Session States
+
+Design:
+
+* Session expired screen/message
+* Unauthorized access state
+* Redirect-to-login state
+* Loading authentication state
+
+Example:
+"Your session has expired. Please sign in again."
+
+## 5. Security UX
+
+The design should communicate security without adding unnecessary text.
+
+Include:
+
+* Password visibility toggle
+* Password strength feedback
+* Secure-looking but minimal UI
+* Clear privacy/terms links
+* No passwords displayed in plain text
+
+Never display:
+
+* Passwords
+* API keys
+* Tokens
+* Private credentials
+
+## 6. Responsive Design
+
+Create responsive versions for:
+
+### Desktop
+
+Centered authentication card with comfortable spacing.
+
+### Tablet
+
+Adapt the card and spacing naturally.
+
+### Mobile
+
+Full-width responsive authentication form with:
+
+* No horizontal scrolling
+* Large touch-friendly controls
+* Comfortable spacing
+* Easy keyboard interaction
+
+## 7. Dark & Light Mode
+
+Create both:
+
+### Dark Mode
+
+Default XOVA AI theme.
+
+### Light Mode
+
+Clean alternative theme.
+
+Both modes must use the exact same structure and components.
+
+Do not redesign the layout between themes.
+
+## 8. Visual Rules
+
+DO NOT add:
+
+* Fake users
+* Fake conversations
+* Fake statistics
+* Fake testimonials
+* Fake notifications
+* Unnecessary illustrations
+* Random dashboard elements
+* Excessive gradients
+* Excessive animations
+* Unnecessary decorative elements
+
+Keep the authentication experience focused entirely on authentication.
+
+## 9. Branding
+
+Use:
+
+**XOVA AI**
+
+At the bottom of the authentication experience, add the subtle developer credit:
+
+**by Begad**
+
+Do not make the credit visually dominant.
+
+## 10. Final Deliverables
+
+Create a complete Figma authentication design system containing:
+
+* Login
+* Create Account
+* Forgot Password
+* Reset Password
+* Email Verification
+* Google Authentication
+* Logout Confirmation
+* Session Expired
+* Unauthorized
+* Loading states
+* Error states
+* Success states
+* Empty/default states
+* Dark Mode
+* Light Mode
+* Desktop
+* Tablet
+* Mobile
+
+Make every screen visually consistent with the main XOVA AI application.
+
+The final result must look like a **real production authentication system for a premium AI platform**, not a generic template.
